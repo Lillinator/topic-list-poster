@@ -6,7 +6,7 @@
     text-align: center;
   }
 }
-@elseif $poster_column_placement =="Last" {
+@else if $poster_column_placement =="Last" {
   .topic-list .posters {
     width: 70px;
   }
