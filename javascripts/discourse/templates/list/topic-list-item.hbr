@@ -108,7 +108,7 @@
 
   {{~raw-plugin-outlet name="topic-list-after-columns"}}
 
-{{else if (eq theme-setting "poster_column_placement") 'Last')}}
+{{else if (eq theme-setting "poster_column_placement") "Last")}}
 
     {{~raw-plugin-outlet name="topic-list-before-columns"}}
 
