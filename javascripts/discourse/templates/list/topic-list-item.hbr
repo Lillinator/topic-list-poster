@@ -108,6 +108,8 @@
 
   {{~raw-plugin-outlet name="topic-list-after-columns"}}
 
+{{/if}}
+
 {{#if (eq (theme-setting "poster_column_placement") "Last")}}
 
     {{~raw-plugin-outlet name="topic-list-before-columns"}}
@@ -218,7 +220,7 @@
     </td>
   {{/if}}
 
-
+{{/if}}
 
 {{#if (eq (theme-setting "poster_column_placement") "Default")}}
 
