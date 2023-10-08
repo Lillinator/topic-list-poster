@@ -29,6 +29,7 @@
   {{raw "topic-list-header-column" sortable=sortable number='true' order='activity' name='activity' ariaLabel=(i18n "sr_activity")}}
   {{~raw-plugin-outlet name="topic-list-header-after"~}}
 
+{{/if}}
 
 {{#if (eq (theme-setting "poster_column_placement") "Last")}}
 
@@ -61,6 +62,8 @@
     {{raw "topic-list-header-column" sortable='true' order='activity' forceName=(theme-i18n 'last-poster')}}
     {{/if}}
    {{/if}}
+
+{{/if}}
 
 {{#if (eq (theme-setting "poster_column_placement") "Default")}}
 
