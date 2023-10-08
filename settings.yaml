@@ -5,7 +5,7 @@ show_author_in_topic_lists:
     en: "Show the topic author instead of last poster in all topic lists. Disabled shows the last poster (not multiple participants)."
 poster_column_placement:
   type: enum
-  default: "Default"
+  default: Default
   choices:
     - Default
     - First
