@@ -1,4 +1,4 @@
-{{#if (eq (theme-setting "poster_column_placement") "First")}}
+{{#if (eq (theme-setting "poster_column_placement") "first")}}
 
   {{#if (theme-setting 'show_author_in_topic_lists')}}
     <td class='author topic-list-data'>
@@ -110,7 +110,7 @@
 
 {{/if}}
 
-{{#if (eq (theme-setting "poster_column_placement") "Last")}}
+{{#if (eq (theme-setting "poster_column_placement") "last")}}
 
     {{~raw-plugin-outlet name="topic-list-before-columns"}}
 
@@ -222,7 +222,7 @@
 
 {{/if}}
 
-{{#if (eq (theme-setting "poster_column_placement") "Default")}}
+{{#if (eq (theme-setting "poster_column_placement") "default")}}
 
   {{~raw-plugin-outlet name="topic-list-before-columns"}}
 
