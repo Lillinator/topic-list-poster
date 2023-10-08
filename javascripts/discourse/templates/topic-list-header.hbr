@@ -30,7 +30,7 @@
   {{~raw-plugin-outlet name="topic-list-header-after"~}}
 
 
-{{else if (eq (theme-setting "poster_column_placement") "Last")}}
+{{#if (eq (theme-setting "poster_column_placement") "Last")}}
 
   {{~raw-plugin-outlet name="topic-list-header-before"~}}
   {{#if bulkSelectEnabled}}
@@ -62,7 +62,7 @@
     {{/if}}
    {{/if}}
 
-  {{else}}
+{{#if (eq (theme-setting "poster_column_placement") "Default")}}
 
   {{~raw-plugin-outlet name="topic-list-header-before"~}}
   {{#if bulkSelectEnabled}}
