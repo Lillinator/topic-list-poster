@@ -1,17 +1,8 @@
-<script type="text/x-handlebars" data-template-name="components/latest-topic-list-item">  
-
-<PluginOutlet @name="above-latest-topic-list-item" @connectorTagName="div" />
-
-<-- this theme component is broken on purpopse for training purposes 
-
+<script
+  type="text/x-handlebars"
+  data-template-name="components/latest-topic-list-item"
+>
   
-  {{raw "list/posts-count-column" topic=this.topic tagName="div"}}
-  <div class="topic-last-activity">
-    <a
-      href={{this.topic.lastPostUrl}}
-      title={{this.topic.bumpedAtTitle}}
-    >{{format-date this.topic.bumpedAt format="tiny" noTitle="true"}}</a>
-  </div>
-</div>
 
 </script>
+	
